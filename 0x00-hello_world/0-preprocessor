@@ -1,2 +1,2 @@
 #!/bin/bash
-printf $CFILE > c-gcc
+gcc $CFILE -e -o
