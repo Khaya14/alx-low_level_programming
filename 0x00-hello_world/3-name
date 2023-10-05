@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc touch 'cisfun.c' > $CFILE -E 
+gcc echo 'cisfun.c' > $CFILE -E 
