@@ -1,2 +1,2 @@
 #!/bin/bash
-printf $CFILE > main.c 
+printf $CFILE > c-gcc
