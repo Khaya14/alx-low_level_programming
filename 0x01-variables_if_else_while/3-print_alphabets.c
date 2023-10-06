@@ -3,21 +3,23 @@
 /**
  * main - Code begins here
  *
+ * print alphabets in both lowercase & uppercase
  *
  * Return: Always 0 (Sucess)
  */
 
 int main(void)
 {
-	char c;
+	int n = 97;
+	int m = 65;
 
-	for (c = 'a' ; c <= 'z' ; c++)
+	while (n <= 122)
 	{
-		if ((c == 'q' || c == 'e') != 1)
-		{
-			putchar(c);
-		}
-
+		putchar(n);
+	}
+	while(m <= 90)
+	{
+		putchar(m);
 	}
 	putchar('\n');
 	return (0);
