@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char c = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char c;
 
 	for (c = 'a' ; c <= 'z' ; c++)
 	{
