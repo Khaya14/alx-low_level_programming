@@ -9,15 +9,12 @@
 
 int main(void)
 {
-	char c;
+	char alph = "abcdefghijklmnopqrstuvxcyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	for (c = 'a' ; c <= 'z' ; c++)
+	for (i = 0 ; i < 52 ; i++)
 	{
-		if ((c == 'q' || c == 'e') != 1)
-		{
-			putchar(c);
-		}
-
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
