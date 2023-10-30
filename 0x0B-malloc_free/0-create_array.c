@@ -10,9 +10,10 @@
 
 char *create_array(unsigned int size, char c)
 {
-	if size = 0
+	if malloc(sizeof(size)) = 0
 		return ("NULL");
 	else
 		return (*create_array);
 }
+void free(*sizeof(size));
 
