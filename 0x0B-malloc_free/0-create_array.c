@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+/**
  * create_array - creates an array of chars
  *
  * @size: size of array
  * @c: storage char
  *
- * Returns: NULL, if size is 0 or a pointer if it fails.
+ * Return: NULL, if size is 0 or a pointer if it fails.
  *
  */
 
@@ -26,7 +26,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 
 	for (i = 0; i < size; i++)
-		create[i] = c
+		create[i] = c;
 
 	return (create);
 }
