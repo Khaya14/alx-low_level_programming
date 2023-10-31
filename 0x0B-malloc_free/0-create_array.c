@@ -8,7 +8,6 @@
  * @c: storage char
  *
  * Return: NULL, if size is 0 or a pointer if it fails.
- *
  */
 
 char *create_array(unsigned int size, char c)
@@ -17,7 +16,7 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 
 	if (size == 0)
-		return ("NULL");
+		return (NULL);
 
 	cr = malloc(sizeof(c) * size)
 
