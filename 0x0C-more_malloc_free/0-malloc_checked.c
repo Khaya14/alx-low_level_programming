@@ -7,12 +7,15 @@
  * @b: integer
  *
  * Return: a pointer
+ * if malloc fails, terminate with value of 98.
  */
 
 void *malloc_checked(unsigned int b)
 {
-	int b;
+	char *p;
 
-	b = malloc_checked(sizeof(int) * size_t);
+	p = malloc(b);
+	if (p == NULL)
 		exit(98);
+	return (p);
 }
