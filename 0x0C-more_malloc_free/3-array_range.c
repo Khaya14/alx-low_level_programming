@@ -3,7 +3,7 @@
 
 /**
  * array_range - creates an array of integers.
- * 
+ *
  * @min: minimum value.
  * @max: maximum value.
  *
