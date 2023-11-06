@@ -8,12 +8,12 @@
 
 int(main)
 {
-	int a;
-	int b;
+	int num;
 
-	x = abs(a) * 10;
-	x = abs(b) * 10;
-	printf("%d, %d\n", x);
+	num = abs(x) * 10;
+
+	printf("%d\n", num);
+
 	return (0);
 }
 
