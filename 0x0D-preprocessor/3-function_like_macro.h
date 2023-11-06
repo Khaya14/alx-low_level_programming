@@ -6,12 +6,14 @@
 
 #define ABS(x)
 
-int()
+int(main)
 {
-	int x;
+	int a;
+	int b;
 
-	a = abs(x) * 10;
-	printf("%d\n", x);
+	x = abs(a) * 10;
+	x = abs(b) * 10;
+	printf("%d, %d\n", x);
 	return (0);
 }
 
