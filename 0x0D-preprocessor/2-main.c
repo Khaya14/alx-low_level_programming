@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 #ifdef MAIN_C
 #define MAIN_C
 
