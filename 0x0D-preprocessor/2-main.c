@@ -9,7 +9,14 @@
  */
 int main(void)
 {
-	i = FILE_NAME
-	printf(i);
+	FILE = *fh;
+	char c;
+
+	fp = fopen(__FILE__, "r");
+
+	while ((c = getc(fp)) != EOF)
+		putchar(c);
+
+	fclose(fp);
 	return (0);
 }
