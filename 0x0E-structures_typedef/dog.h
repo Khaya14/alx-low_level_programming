@@ -5,14 +5,17 @@
 /**
  * dog_h: typedef for struct dog
  */
-typedef struct dog dog_h
+typedef struct dog dog_h;
 
 /**
- * struct struct_dog - new type that defines elements
+ * struct_dog - new type that defines elements
  *
  * @name: first element
  * @age: second element
  * @owner: third element
+ *
+ * description: struct called 'dog' stores its name, age &
+ * the name of its owner
  */
 
 struct dog
