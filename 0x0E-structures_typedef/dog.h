@@ -1,7 +1,11 @@
-#ifndef DOG_LIKE_MACRO_
-#define DOG_LIKE_MACRO_
+#ifndef DOG_H_
+#define DOG_H_
 
-#include <stdio.h>
+
+/**
+ * dog_h: typedef for struct dog
+ */
+typedef struct dog dog_h
 
 /**
  * struct struct_dog - new type that defines elements
@@ -11,13 +15,16 @@
  * @owner: third element
  */
 
-struct struct dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
 
-typedef struct struct dog;
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 
 #endif
