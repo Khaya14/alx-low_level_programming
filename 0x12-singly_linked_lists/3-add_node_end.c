@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node_end: adds new node at the end of list (list_t).
+ * add_node_end - adds new node at the end of list (list_t).
  *
  * @str: string that is to be stored
  * @head: head of linked list
@@ -20,7 +20,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	new->str = strdup(str);
 
-	for (len = 0; str[len]);
+	for (len = 0; str[len])
 		len++;
 
 	new->len = len;
