@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * add_nodeint_end - function that adds a new nide at the end of a list (listint_t).
+ * add_nodeint_end - function that adds a new node at the end of
+ * a list (listint_t).
  *
  * @head: head of the list
  * @n: n element.
